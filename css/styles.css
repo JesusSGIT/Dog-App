@@ -94,7 +94,7 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5 !important ;
-    line-height: 1.5;
+    
     font-size: 3.5rem;
     color: honeydew;
 
@@ -156,5 +156,47 @@ p{
 
 
 .price-text{
+    color: black;
+}
+
+
+@media (max-width:1028px){
+    .rotateimg45{
+        position: static;
+        transform: rotate(0);
+        align-items: center;
+    }
+
+    #title{
+        text-align: center;
+        
+    }
+
+}
+
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+}
+
+.cta-descript{
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5 !important ;
+    
+    font-size: 1.55rem;
+    color: honeydew;
+}
+
+
+
+#footer{
+    
+    text-align: center;
+    background-color:#ff4c68 ;
+    padding-bottom: 16px;
+}
+
+.copyright{
     color: black;
 }
