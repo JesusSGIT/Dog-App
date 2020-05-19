@@ -4,6 +4,7 @@ body{
 
 #title{
     background-color: #ff4c68;
+    padding-bottom: 100px;
 }
 
 .nav-item{
@@ -39,6 +40,9 @@ i{
     -ms-transform: rotate(25deg);
     -o-transform: rotate(25deg);
     transform: rotate(25deg);
+    z-index: 1;
+    position: absolute;
+    left: 16%;
   }
 
   .nav-link{
@@ -50,9 +54,16 @@ i{
 }
 
 #features{
-    text-align: center;
+    position: relative;
+    background-color: white;
+    padding: 7% 5%;
     
-    padding: 5%;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
 }
 
 
@@ -126,4 +137,24 @@ p{
 .press-logo{
     width: 15%;
     margin: 20px;
+}
+
+#pricing{
+    text-align: center;
+    padding:  100px!important;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.section-heading{
+    color: black;
+}
+    
+   
+
+
+.price-text{
+    color: black;
 }
