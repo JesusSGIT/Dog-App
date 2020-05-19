@@ -177,14 +177,15 @@ p{
 #cta{
     background-color:#ff4c68;
     text-align: center;
+    padding: 7% 5%;
 }
 
 .cta-descript{
-    padding-top: 50px;
+    
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5 !important ;
     
-    font-size: 1.55rem;
+    font-size: 2rem;
     color: honeydew;
 }
 
